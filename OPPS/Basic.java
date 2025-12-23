@@ -92,3 +92,13 @@ class Student {
         this.age = age;
     }
 }
+ class  Parent {
+private String propery ; 
+private String Dna ;
+}
+
+class child extends Parent{ 
+     void show(){
+          
+     }
+}

@@ -59,7 +59,7 @@ public class Dijkatras {
 
     public static void dijkatras(ArrayList<Edge>[] graph, int src) {
         int dist[] = new int[graph.length];// distance array 
-        boolean vis[] = new boolean[graph.length];//visited virtex
+        boolean vis[] = new boolean[graph.length];//visited virtex*
 
         // Initialize all distances to Integer.MAX_VALUE
         for (int i = 0; i < dist.length; i++) {

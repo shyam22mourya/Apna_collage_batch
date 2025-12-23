@@ -35,9 +35,7 @@ public class Keywords {
         super.colour = " Shu " ; 
          System.out.println("Horse  constructer called ");
      }
-      public static void main(String[] args) {
-        
-      }
+     
    }
 
 

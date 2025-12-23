@@ -28,3 +28,9 @@ class Rook implements ChessPlayer {
         System.out.println(" up , down , left , right  (In all 4 dims  )");
      }
 }
+
+class Goat implements ChessPlayer{
+     public void moves(){
+         System.out.println("up only ");
+     }
+}

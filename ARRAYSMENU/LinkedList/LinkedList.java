@@ -330,6 +330,7 @@ public class LinkedList {
               // merge ; 
               return mergesort(leftNode , rightNode) ; 
         }
+        
         // tozigzag linklist 
         public void zigzag ( ){
   // find mid  

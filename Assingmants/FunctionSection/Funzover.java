@@ -5,7 +5,7 @@ public class Funzover {
      } 
        // ovrlodng using parameters 
         
-     public static int   sum ( int a , int b , int c ){
+     public static int sum( int a , int b , int c ){
         return a+b+c ; 
    } 
 
