@@ -144,7 +144,7 @@ public class Question {
         int ans[] = new int[arr.length - k + 1];
         slidWinMaxi(arr, ans, k);
         for (int i : ans) {
-            System.out.print(i + " , ");
+            System.out.print(i + ",");
         }
     }
 }

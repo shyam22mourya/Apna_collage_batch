@@ -207,13 +207,12 @@ public class LinkedList {
             Node prev = null ; 
             Node  curr  =  midMode  ; 
             Node next ; 
- while (curr != null) {
-         next = curr.next; 
+      while (curr != null) {
+          next = curr.next;
           curr.next= prev ; 
            prev = curr; 
-            curr  = next  ; 
-
- }
+            curr  = next  ;
+      }
         // step 3 compar    left && right ; 
 
   Node right  = prev  ;
